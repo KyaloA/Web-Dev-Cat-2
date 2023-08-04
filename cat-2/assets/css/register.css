@@ -1,0 +1,127 @@
+/* navbar*/
+.navbar-custom {
+    background-color:#2b6770 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:#52ab98 !important;
+}
+.dropdown-item:hover{
+    color:#52ab98 !important;
+}
+.active{
+    color:#52ab98 !important;
+}
+
+body{
+    background-color: #52ab98;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.topnavlist{
+    
+    list-style-type: none;
+    overflow:hidden;
+    
+    
+}
+.topnavlist2{
+    
+    list-style-type: none;
+    overflow:hidden;
+    background-color:#2b6770;
+    border-style: outset;
+    border-color: black;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav{
+    display: inline;
+}
+.rightallign{
+    float: right;
+    padding: 10px 14px;
+    font-size: 20px;
+    color:#52ab98;
+}
+.active{
+    color:black;
+    
+    
+}
+li a:hover{
+    color:#52ab98;
+}
+.toplist{
+    color:#c8d8e4;
+}
+.leftallign{
+    float:left;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #52ab98
+
+
+}
+#logo{
+    position: relative;
+    height: 18px;
+    width: 60px;
+}
+.nextto{
+    border-radius: 8px;
+    width: 60%;
+    height: 120%;
+    float:right;
+}
+.register{
+    padding: 40px;
+    border-radius: 15px;
+    
+}
+select,[type="text"], [type="email"],[type="date"],[type="radio"],[type="password"]{
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display:inline-block;
+    justify-content: center;
+    display: flex;
+}
+.background{
+    background-image: url("../images/ai.jpg");
+    min-height: 650px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.registration{
+    width: 40%;
+    background-color: #2b6770;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    right: 0;
+    margin: 1px;
+    padding: 16px;
+    margin-top: 8px;
+}
+input[type="submit"]{
+    padding: 15px 30px;
+}
+

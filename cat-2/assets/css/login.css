@@ -1,0 +1,88 @@
+.navbar-custom {
+    background-color:#2b6770 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:#52ab98 !important;
+}
+.dropdown-item:hover{
+    color:#52ab98 !important;
+}
+.active{
+    color:#52ab98 !important;
+}
+.background{
+    background-image: url("../images/ai.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    position: absolute;
+    right: 20px;
+    margin: 0px;
+    margin-top: 40px;
+    max-width: 300px;
+    padding: 16px;
+    border-style: solid;
+    border-color: black;
+    background-color: #2b6770;
+    
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #52ab98;
+    outline:none;
+}
+.bttn{
+    background-color: white;
+    color:black;
+    padding: 5px 20px;
+    border-style: groove;
+    cursor: pointer;
+    width: 60%;
+}
+.btn:hover{
+
+    color: red;
+}
+p a{
+   text-decoration: none; 
+   font-size: 14px;
+   color: aliceblue;
+   padding: 5px 5px;
+}
+p a:hover{
+   color: #52ab98;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.thead-green{
+    background-color: #2b6770;
+    color: white;
+}
+.registration{
+    width: 60%;
+    background-color: #2b6770;
+    margin: 20px auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 1px 16px;
+    color: black;
+    position: relative;
+}
+

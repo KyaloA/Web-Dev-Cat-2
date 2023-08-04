@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.homep{
+    color: black;
+    font-family: Raleway;
+  }
+  .navbar-custom {
+    background-color:#2b6770 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:#52ab98 !important;
+}
+.dropdown-item:hover{
+    color:#52ab98 !important;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+}
+
+div.gallery:hover {
+  border: 5px solid #008000;
+}
+
+div.gallery img {
+  width: 100%;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("../images/home.avif");
+    height: 90%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+
+  /*body*/
+ 
+
+.registration{
+    width: 60%;
+    background-color: #2b6770;
+    margin: 20px auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 1px 16px;
+    color: black;
+    position: relative;
+}
+
+input[type="submit"]{
+    padding: 3px 30px;
+}
+select,[type="text"], [type="email"],[type="date"],[type="radio"],[type="password"]{
+    width: 100%;
+    padding: 1px 14px;
+    border-radius: 2px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    display:inline-block;
+    justify-content: center;
+    display: flex;
+}
+.seelect{
+    width: 100%;
+    padding: 5px 14px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    display:inline-block;
+    justify-content: center;
+    display: flex;
+    
+}
+
+/*login*/
+.container-login{
+    position: absolute;
+    right: 0;
+    margin: 0px;
+    max-width: 300px;
+    padding: 16px;
+    border-style: solid;
+    border-color: black;
+    background-color: #2b6770;
+    
+}
